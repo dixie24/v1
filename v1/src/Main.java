@@ -30,4 +30,8 @@ public class Main {
     public static double calculateTax(double price, double rate) {
         return price * rate / 100;
     }
+
+    public static void sayHello() {
+        System.out.println("Привет!");
+    }
 }
