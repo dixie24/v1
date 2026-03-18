@@ -3,7 +3,7 @@
         System.out.println("Привет!");
     }
     public static void main(String[] args) {
-        // вызываем методы
+
         sayHello();
 
         int result = add(5, 3);
