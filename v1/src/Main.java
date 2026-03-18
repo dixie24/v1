@@ -22,4 +22,12 @@ public class Main {
     public static String greet(String name) {
         return "Hello, " + name + "!";
     }
+
+    public static int add(int a, int b) {
+        return a + b;
+    }
+
+    public static double calculateTax(double price, double rate) {
+        return price * rate / 100;
+    }
 }
