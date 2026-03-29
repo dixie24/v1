@@ -12,7 +12,7 @@ public class Main {
     }
 
     public static void sayHello() {
-        System.out.println("Привет!");
+        System.out.println("Привет1!");
     }
 
     public static int add(int a, int b) {
