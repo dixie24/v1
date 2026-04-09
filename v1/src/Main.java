@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static int add(int a, int b) {
-        return a * b;
+        return a * b + b;
     }
 
     public static String greet(String name) {
