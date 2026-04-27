@@ -30,12 +30,26 @@ public class VarArgs {
 //        vaTest (1, 2, 3 ) ; // 3 аргумента
 //        vaTest (21); // без аргументов {
 //    }
-        public static void main (String[]args){
-            System.out.println("Цикл for:");
+//        public static void main (String[]args){
+//            System.out.println("Цикл for:");
+//
+//            // (инициализация; условие; шаг)
+//            for (int i = 1; i <= 5; i++) {
+//                System.out.println("Итерация №" + i);
+//            }
+//        }
+//    }
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Цикл while:");
 
-            // (инициализация; условие; шаг)
-            for (int i = 1; i <= 5; i++) {
-                System.out.println("Итерация №" + i);
-            }
+        int counter = 1;
+
+        // Пока условие в скобках истинно
+        while (counter <= 5) {
+            System.out.println("Счетчик равен: " + counter);
+
+            counter++; // Важно не забыть изменить условие, иначе цикл будет вечным
         }
     }
+}
