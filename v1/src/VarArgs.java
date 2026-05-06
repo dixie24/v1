@@ -24,8 +24,9 @@ public class VarArgs {
 //    }
 //    public static void main(String[] args)
 //    {
-//// Обратите внимание , что теперь метод vaTest ()
-//// можно вызывать с переменным числом аргументов.
+
+    /// / Обратите внимание , что теперь метод vaTest ()
+    /// / можно вызывать с переменным числом аргументов.
 //        vaTest (10 ) ; // 1 аргумент
 //        vaTest (1, 2, 3 ) ; // 3 аргумента
 //        vaTest (21); // без аргументов {
@@ -39,17 +40,18 @@ public class VarArgs {
 //            }
 //        }
 //    }
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Цикл while:");
+    public class Main {
+        public static void main(String[] args) {
+            System.out.println("Цикл while:");
 
-        int counter = 1;
+            int counter = 1;
 
-        // Пока условие в скобках истинно
-        while (counter <= 5) {
-            System.out.println("Счетчик равен: " + counter);
+            // Пока условие в скобках истинно
+            while (counter <= 5) {
+                System.out.println("Счетчик равен: " + counter);
 
-            counter++; // Важно не забыть изменить условие, иначе цикл будет вечным
+                counter++; // Важно не забыть изменить условие, иначе цикл будет вечным
+            }
         }
     }
 }
