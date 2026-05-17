@@ -44,7 +44,7 @@ public class VarArgs {
         public static void main(String[] args) {
             System.out.println("Цикл while:");
 
-            int counter = 1;
+            int counter = 2;
 
             // Пока условие в скобках истинно
             while (counter <= 5) {
