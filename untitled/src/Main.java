@@ -1,3 +1,8 @@
-void main() {
-    System.out.println("Так тоже можно в новых версиях!");
+import java.util.Scanner;
+
+public class Main{
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }
