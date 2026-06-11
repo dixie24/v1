@@ -2,17 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter 1st figure: ");
-        int num1 = scanner.nextInt();
+        int number = 10;
 
-        System.out.println("Enter 2nd figure: ");
-        int num2 = scanner.nextInt();
-
-        int res;
-        int res = num1 + num2;
-        System.out.println("Action: ");
-        String action = scanner.nextLine()
+        do {
+            System.out.println("This will print at least once.");
+            number++;
+        } while (number < 5);
     }
+// Condition is false, but the block above already ran once.
 
-}
