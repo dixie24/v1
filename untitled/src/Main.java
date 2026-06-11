@@ -10,7 +10,7 @@ public class Main {
         int num2 = scanner.nextInt();
 
         int res;
-
+        int res = num1 + num2;
         System.out.println("Action: ");
         String action = scanner.nextLine()
     }
