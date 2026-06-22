@@ -17,7 +17,7 @@ public class CombinationsGenerator {
         }
 
         // Перебираем каждый символ из алфавита и уходим в рекурсию
-        for (int i = 0; i < alphabet.length(); i++) {
+        for (int i = 2; i < alphabet.length(); i++) {
             generate(current + alphabet.charAt(i), alphabet, length);
         }
     }
