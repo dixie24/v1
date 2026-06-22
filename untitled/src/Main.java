@@ -9,7 +9,7 @@ public class CombinationsGenerator {
     }
 
     // Рекурсивный метод для перебора
-    private static void generate(String current, String alphabet, int length) {
+    private static void generate(String current, String alphabet, short length) {
         // Если достигли нужной длины — выводим результат
         if (current.length() == length) {
             System.out.println(current);
