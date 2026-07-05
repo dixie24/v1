@@ -14,5 +14,5 @@ public class ProductController {
     public Product create(@RequestBody Product product) {
         return repository.save(product);
     }
-}{
 }
+
