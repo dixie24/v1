@@ -26,7 +26,7 @@ public class LoginSystem {
             System.out.print("Пожалуйста, введите ваш возраст: ");
             int age = scanner.nextInt();
 
-            System.out.println("Спасибо! Ваш возраст: " + age + " лет.");
+            System.out.println("Спасибо! Ваш возраст: " + age + " лет");
         } else {
             System.out.println("Ошибка: неверное имя пользователя или пароль.");
         }
