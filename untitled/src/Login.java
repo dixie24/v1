@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class LoginSystem {
 
-    private String validUsername = "admin";
-    private String validPassword = "password123";
+    private String validUsername = "admin#";
+    private String validPassword = "password1212";
 
     public boolean authenticate(String username, String password) {
         return validUsername.equals(username) && validPassword.equals(password);
