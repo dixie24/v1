@@ -48,7 +48,7 @@ public class VarArgs {
 
             // Пока условие в скобках истинно
             while (counter <= 6) {
-                System.out.println("Счетчик равен: " + counter);
+                System.out.println("Счетчик равен: " + coounter);
 
                 counter++; // Важно не забыть изменить условие, иначе цикл будет вечным
             }
