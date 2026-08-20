@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LoginSystem {
+public class Login {
 
     private String validUsername = "admin#";
     private String validPassword = "password1212";
@@ -11,7 +11,7 @@ public class LoginSystem {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        LoginSystem login = new LoginSystem();
+        Login login = new Login();
 
         System.out.print("Введите имя пользователя: ");
         String user = scanner.nextLine();
