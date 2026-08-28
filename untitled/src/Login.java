@@ -17,9 +17,9 @@ public class Login {
         String user = scanner.nextLine();
 
         System.out.print("Введите пароль: ");
-        String pass = scanner.nextLine();
+        String  = scanner.nextLine();
 
-        if (login.authenticate(user, pass)) {
+        if (login.authenticate(user)) {
             System.out.println("Успешный вход!");
 
             // Запрос возраста
