@@ -4,7 +4,7 @@ public class Main {
 
         sayHello();
 
-        int result = add(5, 3);
+        int result = add(2, 3);
         System.out.println(result); // 8
 
         String message = greet("Алибек");
