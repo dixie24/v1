@@ -42,7 +42,7 @@ public class VarArgs {
 //    }
     public class Main {
         public static void main(String[] args) {
-            System.out.println("Цикл while:");
+            System.out.println("Цикл wwdae:");
 
             int counter = 3;
 
