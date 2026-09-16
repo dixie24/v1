@@ -28,7 +28,7 @@ public class Login {
 
             System.out.println("Спасибо! Ваш возраст: " + age + " лет");
         } else {
-            System.out.println("Ошибка: неверное имя пользователя или пароль.");
+            System.out.println("Ошибка! неверное имя пользователя или пароль.");
         }
 
         scanner.close();
