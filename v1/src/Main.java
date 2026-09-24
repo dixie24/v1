@@ -7,7 +7,7 @@ public class Main {
         int result = add(2, 3);
         System.out.println(result); // 8
 
-        String message = greet("Алибек");
+        String message = greet("Али");
         System.out.println(message); // Hello, Алибек!
     }
 
@@ -20,6 +20,6 @@ public class Main {
     }
 
     public static String greet(String name) {
-        return "Hello!, " + name + "!";
+        return "Hello!!, " + name + "!";
     }
 }
