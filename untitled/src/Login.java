@@ -20,7 +20,7 @@ public class Login {
         String pass = scanner.nextLine();
 
         if (login.authenticate(user, pass)) {
-            System.out.println("Успешный вход!");
+            System.out.println("Успешный вход!!!");
 
             // Запрос возраста
             System.out.print("Пожалуйста, введите ваш возраст: ");
