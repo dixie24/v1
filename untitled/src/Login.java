@@ -23,7 +23,7 @@ public class Login {
             System.out.println("Успешный вход!!!");
 
             // Запрос возраста
-            System.out.print("Пожалуйста, введите ваш возраст: ");
+            System.out.print("Пожалуйста, введите ваш возраст: .");
             int age = scanner.nextInt();
 
             System.out.println("Спасибо! Ваш возраст: " + age + " лет");
